@@ -3,7 +3,7 @@
   --cor-primaria: #012C70;   
   --cor-secundaria: #F5F5F5; 
   --cor-destaque: #000000;   
-  --cor-fundo: #1c54e291;      
+  --cor-fundo: #f7f8f991;      
   --cor-texto: #333333;      
 }
 
@@ -36,6 +36,7 @@ body{
 
 .nome-empresa{
     margin: 0 auto;
+    margin-top: 20px;
 
 }
 
@@ -47,7 +48,7 @@ body{
     margin: 0 auto;
     margin-top: 130px;
     width: 300px;
-    height: 300px;
+    height: 320px;
     padding: 20px;
     border-radius: 20px;
     background-color: var(--cor-primaria);
@@ -73,10 +74,22 @@ body{
     color: var(--cor-destaque);
     box-shadow: -10px 6px 10px black;
     text-shadow: 2px 1px 20px black;
+    margin-bottom: 10px;
+    cursor: text;
+}
+
+.login>input:hover{
+    cursor: text;
 }
 
 .sign-in{
     text-align: center;
+}
+
+
+.sign-in>button:hover{
+    background-color: black;
+    cursor: pointer;
 }
 
 .sign-in>button{
@@ -103,6 +116,16 @@ body{
 
 }
 
+.cadastre-se>a:hover{
+    color: black;
+}
+
+
+
+
+.esqueceu-senha>a:hover{
+    color: black;
+}
 
 
 
@@ -122,4 +145,5 @@ body{
     text-align: center;
     margin-top: 15px;
 }
+
 
