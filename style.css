@@ -14,14 +14,13 @@ body{
 }
 
 
-.header{
+header{
     border-style: solid;
-    min-width: 1200px;
-    max-width: 300px;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 90px;
-    padding-left: 40px;
-    padding-top: 15px ;
+    padding: 20px;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
     border-radius: 20px;
@@ -41,9 +40,6 @@ body{
 
 }
 
-.logo-header>img{
-    border-radius: 10px;
-}
 
 .container-geral{
     margin: 0 auto;
@@ -148,3 +144,14 @@ body{
 }
 
 
+footer{
+    background-color: #ffffff89;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.logo-header2>img{
+    border-radius: 20px;
+}
