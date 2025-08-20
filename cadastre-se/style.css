@@ -1,171 +1,85 @@
-body{
-    margin: 0;
-    width: 100%;
-}
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
 
-/* HEADER E CABEÇALHO, BOTOES E PESQUISAS */
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #012C70;
+        }
 
-header{
-    background-color: black;
-    padding: 10px;
-    border-radius: 1px;
-    text-align: center;
-    display: block;
-    max-width: 20000px;
-    min-width: 200px;
-    
+        .cadastro-container {
+            background: #ffffff;
+            padding: 40px 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 400px;
+        }
 
-}
+        .cadastro-container h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #012C70;
+        }
 
-header>a{
-    color: white;
-    padding-left: 23px ;
-    padding-right: 10px;
-    text-align: center;
-}
-#helpcenter{
-    padding-right: 150px;
-}
+        .form-group {
+            margin-bottom: 20px;
+        }
 
-#submit{
-    padding: 7px;
-    border-radius: 10px;
-}
-#sign-in{
-    background-color: #4C5FD5;
-    color: white;
-    padding: 7px;
-    border-radius: 10px;
+        .form-group label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: bold;
+            color: #333;
+        }
 
-    
-}
+        .form-group input {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+        }
 
-#sign-in:hover{
-    background-color: white;
-    color: black;
-    cursor: pointer;
-}
+        .form-group input:focus {
+            border-color: #012C70;
+            outline: none;
+        }
 
+        .btn-cadastrar {
+            width: 100%;
+            padding: 12px;
+            background-color: #012C70;
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
 
-#search-bottom{
-    padding: 5px;
-    border-radius: 7px;
-    padding-left: 10px;
-}
-#search-bottom:hover{
-    background-color: rgba(255, 255, 255, 0.842);
-}
+        .btn-cadastrar:hover {
+            background-color: #0147a3;
+        }
 
-#submit:hover{
-    cursor: pointer;
-}
+        .login-link {
+            margin-top: 15px;
+            text-align: center;
+            font-size: 14px;
+        }
 
+        .login-link a {
+            color: #012C70;
+            text-decoration: none;
+            font-weight: bold;
+        }
 
-/* FIM HEADER E CABEÇALHO */
-
-/* PRECISA DE AJUDA E SEARCH BOTTOM DO MEIO */
-
-.precisa-de-ajuda{
-    background-color: #DADBF1;
-    padding: 35px;
-    box-shadow: 3px -5px 20px black;
-}
-
-.precisa-de-ajuda>p{
-    text-align: center;
-    font-size: 45px;
-    text-shadow: 3px 9px 20px black;
-}
-
-#search-help{
-    padding: 10px;
-    display: block;
-    text-align: center;
-    width: 100%;
-    min-width: 250px;
-    max-width: 750px;
-    margin: auto;
-   
-}
-
-/* FIM DO PRECISA DE AJUDA E SEARCH BOTTOM */
-
-        /* CONTAINER DA FOTO 1 E TEXTO AO LADO */
-
-.container-foto1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 3px 10px 20px black;
-    background-color: #959697;
-    border-radius: 10px;
-    padding: 10px;
-    
-
-}
-
-.imagem-1{
-    margin: 0;
-}
-
-.imagem-1>#foto-manage{
-    width: 60px;
-}
-
-.texto-foto1{
-    font-size: 15px;
-}
-
-.texto-foto1>h6{
-    margin: 0;
-}
-
-.texto-foto1>a{
-    font-size: 10px;
-    text-decoration: none;
-
-}
-
- /* FIM DO CONTAINER FOTO 1 E TEXTO */
-
-
- .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    margin: 100px;
- }
-
-
- .footer{
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    padding: 40px;
- }
-
- .footer-1{
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-
- }
-
- .footer-1>h6{
-    margin: 1px;
-    margin-top: 20px;
-    margin-bottom: 20px;
- }
-
- .footer-1>p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
-    margin: 1px;
-    text-align: center;
- }
-
-
- 
+        .login-link a:hover {
+            text-decoration: underline;
+        }
